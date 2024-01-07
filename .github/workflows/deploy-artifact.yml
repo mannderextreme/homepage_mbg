@@ -14,3 +14,4 @@ jobs:
           server: ${{ secrets.ARTIFACT_HOST }}
           username: ${{ secrets.ARTIFACT_USERNAME }}
           password: ${{ secrets.ARTIFACT_PASSWORD}}
+          protocol: ftps
